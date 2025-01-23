@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/black-concrete-wall_24972-1046.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+
+    h2{
+        color: BFA181;
+        text-align: center;
+    }
+}
+h3{
+    text-align: center;
+}
+main{
+    background-color: black;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div{
+    background-color:#2c88ac;
+    margin: 10px;
+    padding: 20px;
+    flex: 25%;
+}
+
+@media screen and (max-width: 1200px){
+    main {
+        width: 90%;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+}
+
